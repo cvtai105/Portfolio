@@ -1,0 +1,26 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&display=swap");
+
+/* Global Styles */
+body {
+    margin: 0 auto;
+    font-family: "Preahvihear", sans-serif;
+    color: #ffffff;
+    background-color: #0d0d1a;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Main Theme Color */
+:root {
+    --main-color: #8a2be2;
+}
+
+h1,
+h2 {
+    color: var(--main-color);
+}

@@ -3,126 +3,96 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Professional IT Specialist Portfolio" />
-        <title>Professional IT Specialist</title>
+        <title>Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
-        <!-- Link to external CSS -->
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f4f4f9;
-                color: #333;
-            }
-            header {
-                background-color: #0078d7;
-                color: white;
-                padding: 20px 0;
-                text-align: center;
-            }
-            header h1 {
-                margin: 0;
-            }
-            nav {
-                margin-top: 10px;
-            }
-            nav a {
-                color: white;
-                text-decoration: none;
-                margin: 0 15px;
-                font-weight: bold;
-            }
-            section {
-                padding: 20px;
-                max-width: 800px;
-                margin: 20px auto;
-                background: white;
-                border-radius: 8px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            }
-            footer {
-                text-align: center;
-                padding: 10px 0;
-                background-color: #333;
-                color: white;
-                margin-top: 20px;
-            }
-        </style>
+        <link rel="stylesheet" href="nav.css" />
+        <link rel="stylesheet" href="intro.css" />
+        <link rel="stylesheet" href="exp.css" />
     </head>
     <body>
         <header>
-            <h1>John Doe</h1>
-            <p>IT Specialist | Software Engineer | Tech Enthusiast</p>
             <nav>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
         </header>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section class="intro">
+            <div class="avatar">
+                <img src="assets/laptop.icon.png" />
+                <!-- Add your avatar image -->
+            </div>
+            <div>
+                <p>Hello! I am <span class="name">BizyLazi</span></p>
+                <h1>
+                    A Software Engineer who <br />
+                    Considers money as <br />
+                    <span class="highlight">Everything</span>.
+                </h1>
+                <h2>
+                    "Keeping every partner satisfied is the most sustainable way
+                    to make money."
+                </h2>
+                <p>
+                    "What money can't buy can be bought with a lot more money."
+                </p>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>I'm a Software Engineer.|</h2>
+            <p>Currently, I'm working at <a href="#">NashTech</a>.</p>
             <p>
-                Hello! I'm John Doe, a passionate IT professional with over 5
-                years of experience in software development, system
-                administration, and IT consulting. I specialize in creating
-                efficient and scalable solutions for businesses.
+                DevOps, Backend, Frontend, Mobile, Blockchain and everything in
+                between. I've done it all. With the help of AI, I can now do
+                everything 10x better.
             </p>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, JavaScript, C#</li>
-                <li>Web Development: HTML, CSS, React, Node.js</li>
-                <li>Database Management: MySQL, MongoDB</li>
-                <li>Cloud Platforms: AWS, Azure</li>
-                <li>System Administration: Linux, Windows Server</li>
-            </ul>
+        <section class="work-experience">
+            <h2>Experience</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="icon"><img src="icon1.png" alt="Icon 1" /></div>
+                    <h3>CIB on the Mobile</h3>
+                    <p>
+                        Take your client onboard seamlessly by our amazing tool
+                        of digital onboard process.
+                    </p>
+                    <button class="btn">LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="icon2.png" alt="Icon 2" /></div>
+                    <h3>CIB on the Mobile</h3>
+                    <p>
+                        Take your client onboard seamlessly by our amazing tool
+                        of digital onboard process.
+                    </p>
+                    <button class="btn">LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="icon3.png" alt="Icon 3" /></div>
+                    <h3>CIB on the Mobile</h3>
+                    <p>
+                        Take your client onboard seamlessly by our amazing tool
+                        of digital onboard process.
+                    </p>
+                    <button class="btn">LEARN MORE</button>
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="icon4.png" alt="Icon 4" /></div>
+                    <h3>CIB on the Mobile</h3>
+                    <p>
+                        Take your client onboard seamlessly by our amazing tool
+                        of digital onboard process.
+                    </p>
+                    <button class="btn">LEARN MORE</button>
+                </div>
+            </div>
         </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <strong>Project Management Tool:</strong> Developed a
-                    web-based tool for managing team projects and tasks.
-                </li>
-                <li>
-                    <strong>E-commerce Platform:</strong> Built a scalable
-                    e-commerce platform with secure payment integration.
-                </li>
-                <li>
-                    <strong>Cloud Migration:</strong> Led a successful migration
-                    of on-premise infrastructure to AWS.
-                </li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                If you'd like to get in touch, feel free to reach out via email
-                or connect with me on LinkedIn.
-            </p>
-            <p>
-                Email:
-                <a href="mailto:john.doe@example.com">john.doe@example.com</a>
-            </p>
-            <p>
-                LinkedIn:
-                <a href="https://linkedin.com/in/johndoe" target="_blank"
-                    >linkedin.com/in/johndoe</a
-                >
-            </p>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 John Doe. All rights reserved.</p>
-        </footer>
     </body>
 </html>
